@@ -1,0 +1,18 @@
+.search-bar {
+    width: 100%; /* Prend la largeur totale disponible */
+    margin-bottom: 20px; /* Ajoute un espacement en bas */
+  }
+  
+  .search-bar input {
+    width: 100%; /* Prend la largeur totale disponible */
+    padding: 10px; /* Ajoute de l'espace autour du texte */
+    font-size: 16px; /* Taille de la police */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 5px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclut la bordure et le remplissage dans la largeur et la hauteur */
+  }
+  
+  .search-bar input:focus {
+    outline: none; /* Supprime la bordure bleue lorsque l'élément est en surbrillance */
+  }
+  

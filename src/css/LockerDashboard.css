@@ -1,0 +1,31 @@
+.student-card {
+    width: 100px; /* Pour 5 cartes par ligne */
+    height: 120px;
+    border: 2px solid #ccc; /* Bordure grise */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px; /* Espacement à l'intérieur de la carte */
+    margin: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.student-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée au survol */
+}
+
+.student-card > div {
+    margin-bottom: 5px; /* Espacement entre les éléments à l'intérieur de la carte */
+}
+
+.student-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
