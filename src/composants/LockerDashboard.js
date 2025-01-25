@@ -123,6 +123,9 @@ function LockerDashboard() {
                         >
                             Accéder au casier
                         </button>
+                        <Link to={`/details/${student.id}`} className="button-details">
+                            Voir détails
+                        </Link>
                         {lockerStatus[student.id] === 'occupied' && (
                             <button
                                 className="button-secondary"
